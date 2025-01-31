@@ -1,0 +1,84 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5ebe0;
+    color: #4a2c2a;
+    text-align: center;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    background: #6f4e37;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#theme-toggle {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+article {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 2px solid #6f4e37;
+    border-radius: 5px;
+}
+
+button {
+    background: #6f4e37;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #2d1e12;
+    color: #d3c6aa;
+}
+
+.dark-mode header {
+    background: #452a1e;
+}
+
+.dark-mode button {
+    border-color: #d3c6aa;
+}
+
+.dark-mode article {
+    background: #452a1e;
+}

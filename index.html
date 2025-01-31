@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Brew - News</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>School Brew</h1>
+        <p>Freshly brewed news, just for you</p>
+        <button id="theme-toggle">🌙</button>
+    </header>
+    
+    <main>
+        <section class="news">
+            <article>
+                <img src="https://i0.wp.com/www.bulanca.com/wp-content/uploads/e-kilit-giris.png?ssl=1" alt="article uno">
+                <h2>Students vs Teachers, About to be a challenge!</h2>
+                <p>Smart students that have common sense found ways to beat the famous e-kilit lock, teachers are about to figure out the truth!</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/600/400" alt="article dos">
+                <h2>Empty here!</h2>
+                <p>Stay tuned for more info, report news to us in the contact section.</p>
+            </article>
+        </section>
+        
+        <section class="contact">
+            <h2>Get in Touch</h2>
+            <form action="https://formsubmit.co/cba-mails@proton.me" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="hidden" name="_subject" value="CBA Mail - School Brew">
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
